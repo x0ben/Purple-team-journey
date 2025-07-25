@@ -1,0 +1,62 @@
+ Day 1 of My Cybersecurity Journey — Lab Setup + First Nmap Scans
+
+ Date: July 25, 2025
+ Phase 0: Lab Setup (From Zero to Purple Team)
+ Who Am I?
+
+ Hi! I’m starting a public journey from absolute beginner to Purple Team cybersecurity professional by mid-2026.
+ I’ll be learning everything — from hacking tools to forensics, red teaming to SIEM detection — and sharing it all here,    one step at a time.
+ What I Did Today — Phase 0 Begins
+ Step 1: Built My Lab Environment
+
+ I installed three virtual machines inside VirtualBox:
+ VM	Role
+ Kali Linux	Main attacker machine
+ Metasploitable 2	Vulnerable target machine
+ Windows 10	Defensive/real-world system
+
+ I configured Bridged Adapter networking so all the machines are on the same subnet (e.g. 192.168.1.X) — this is important      so they can “see” each other inside the virtual lab.
+ ✅ Step 2: Scanned My Systems with Nmap
+
+ I used Nmap from Kali to scan the Windows and Metasploitable VMs.
+  Scan Results – Windows 10
+
+ Only a few ports were open:
+
+    5040 – Unknown
+    5357 – wsdapi (Windows Device API)
+    7680 – pando-pub (Delivery Optimization)
+ These are default Windows services, not vulnerabilities — so the system is pretty secure.
+ 
+ Scan Results – Metasploitable 2
+ many ports were open — including:
+    FTP
+    Telnet
+    Apache (HTTP)
+    Samba (SMB)
+    MySQL
+This VM is made to be vulnerable, so it’s perfect for practicing exploitation and enumeration in future phases.
+
+Step 3: Practiced Nmap Commands
+I tested these commands to explore deeper:
+nmap -p- 192.168.1.X
+nmap --script vuln 192.168.1.X
+nmap -sV -O -Pn 192.168.1.X -oN win_scan.txt
+
+Quick Explanation:
+    -p- — scans all 65,535 TCP ports
+    --script vuln — checks for known vulnerabilities
+    -sV — detects service versions
+    -O — OS detection
+    -Pn — skips ping, helpful for stealth
+
+ Accounts I Set Up
+To start participating in labs and practice platforms, I created:
+     TryHackMe
+     Hack The Box
+     GitHub – where I’ll upload my scripts, scans, and tools
+
+ What I Learned Today
+    How to set up a functioning cyber lab with attacker and victim VMs
+    What a typical scan looks like on secure vs vulnerable machines
+    That port scanning and service enumeration is the first step of every cyber attack chain
