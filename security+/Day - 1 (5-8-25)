@@ -1,0 +1,31 @@
+Phase 1 – Knowing All About Networking
+Date: 05/08/25
+Learning Security+
+1. What Did I Study Today?
+I studied Chapter 1 of Network+, which is about the OSI Layer and TCP/IP Stack.
+I learned about the 7 layers of the OSI (Open Systems Interconnection) model in detail — what each one does, their functions, and the specific devices used at each layer.
+
+Here are the seven layers of the OSI model:
+    1. Physical – Responsible for moving bits (0s and 1s) across the network. Uses hardware devices, cables, connectors, and hubs. It defines the layout of cables and allows multiple signals to share one medium.
+    2. Data Link – Breaks data into frames for transmission, performs error detection and correction, and uses MAC addresses to identify devices.
+    3. Network – Handles routing data between networks using IP addresses (IPv4, IPv6). It breaks data into packets, sends them over different paths, and uses routers to find the best path.
+    4. Transport – Manages end-to-end communication and acts as a bridge between upper and lower layers. It takes data from upper layers and breaks it into segments. Protocols at this layer include TCP, UDP, and ICMP. It can also send multiple segments at once (windowing).
+    5. Session – Verifies user logins, manages data transfer during communication, and ends the session after communication is done.
+                 common protocols: SIP (Session Initiation Protocol) – used for voice/video calls over the internet.
+    6. Presentation – Responsible for formatting and securing the data (e.g., encryption, translation).
+    7. Application – Provides services for end-user applications like email, file sharing, and web browsing.
+
+2. TCP/IP Stack
+The TCP/IP model has 4 layers:
+
+    1. Network Access Layer – Combines Layer 1 (Physical) and Layer 2 (Data Link). It handles hardware, MAC addressing, and cables.
+    2. Internet Layer – Uses IP for addressing and routing; responsible for packet forwarding.
+    3. Transport Layer – Provides end-to-end communication using TCP and UDP.
+    4. Application Layer – Combines OSI layers 5–7 (Session, Presentation, Application) and provides network services to applications.
+
+After finishing Chapter 1, I completed some multiple-choice questions (MCQs).
+I got 11 out of 12 correct — the one I missed was a question I hadn’t learned about yet.
+
+It was a good day today. Looking forward to starting Chapter 2 tomorrow!
+
+Thank you!
