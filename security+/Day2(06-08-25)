@@ -1,0 +1,41 @@
+Phase 1 – Knowing All About Networking
+Date: 06/08/25
+Learning Security+
+
+1. What Did I Study Today?
+I Learned About Various Network Types and Various Network Topologies their workings, functioons etc.
+These Are The Network Types and Topologies 
+LAN (Local Area Network) - Covers a small area like an office or building 
+WAN (Wide Area Network) - Covers large distance like between cities and countries
+WLAN (Wireless Local Area Network) - Wireless version of LAN like WI-FI
+SAN (Storage Area Network) - A network focused on storge devices 
+CAN (Campus Area Network) - Covers multiple buildings on campus or company site.
+MAN (Metropolitan Area Network) - Spans a city or large area less than WAN
+PAN (Personal Area Network) - very small networks between devices like bluetooth 
+SD-WAN (Software Defined Wide Area Network) - morden way to manage WAN using software instead of traditional hardware
+MGRE (Multipoint Generic Routing Encapsulation) - It is a tunneling technology which allows multiple sites to connect trough one tunnel interface.
+
+this is only basic info i am not diving into deapth.
+
+2. Network Topologies 
+BUS - devices connected in a row using t - connector. 
+RING - its connected in loop. data is forworded from one device to another.
+STAR - devices are connected to a center hub or switch.
+HUB AND SPOKE - there is only one hub and more spoke. if spoke want to interact with each other then its should go trough hub. 
+FULL - MESH - its directly connected to different sites using WAN Links.
+PARTIAL - MESH - only selected sites are directly connected others may relay on intermidiate sites
+
+So This all about my learning on day 2
+
+Was is exciting? 
+
+i dont know what to say its not the question you ask a person who finished studying 120 pages of pdf full theory.
+well i enjoyed it but its hard to remember its sub parts need to revise it or else it would be a waste right.
+yeah i have to give one hour for revision and need to start practical too.
+
+thats it for today. meet you tomorrow bye
+and yeah 
+thanks for staying with me 
+
+ignore my grammer and sencetance formation i will geadually improve it over time. 
+once again thank you for your time 
